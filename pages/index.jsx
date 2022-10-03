@@ -4,10 +4,10 @@ import dynamic from "next/dynamic"
 import { types as filterTypes, gender as filterGenders } from "../utils/types"
 import SuspenseLayout from "@/components/common/SuspenseLayout"
 
-const Home = dynamic(() => import("@/components/home/Home"), {
+const Home = dynamic(() => import("../components/home/Home"), {
   suspense: true,
 })
-const Pokemon = dynamic(() => import("@/components/common/Pokemon"), {
+const Pokemon = dynamic(() => import("../components/common/Pokemon"), {
   suspense: true,
 })
 
