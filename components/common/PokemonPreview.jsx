@@ -44,7 +44,7 @@ export default function PokemonPreview({ close }) {
     <section className="p-6 text-[#2E3156] w-[390px] sm:w-[756px]">
       <div className="relative mb-10  lg:max-w-full lg:flex sm:grid sm:grid-cols-2">
         <div
-          className={`hidden sm:block mt-2  grid place-items-center h-[221.32px] w-[159px] sm:h-[277px] sm:w-[199px] p-5  mr-8 flex-none bg-cover rounded text-center overflow-hidden border-dashed  border-2 border-[#2E3156] 
+          className={`hidden sm:block mt-2  place-items-center h-[221.32px] w-[159px] sm:h-[277px] sm:w-[199px] p-5  mr-8 flex-none bg-cover rounded text-center overflow-hidden border-dashed  border-2 border-[#2E3156] 
          ${
            selectedPokemon?.types?.length > 1
              ? "bg-gradient-to-b from-[#C0D4C8] to-[#CFB7ED]"

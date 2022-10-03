@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-import Divider from "@/components/common/Divider"
 
 export default function Navbar() {
   return (
