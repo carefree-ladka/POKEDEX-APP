@@ -3,14 +3,14 @@
 import Image from "next/future/image"
 import { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
-import generateRandom from "utils/generateRandomColors"
-import toUpperCase from "utils/upperCaseName"
 import {
   convertHeight,
   descriptionList,
   flattenList,
   simplifyLabels,
 } from "utils/utils"
+import toUpperCase from "../../utils/upperCaseName"
+import generateRandom from "../../utils/generateRandomColors"
 import gradientColors from "../../utils/constants"
 
 export default function PokemonPreview({ close }) {

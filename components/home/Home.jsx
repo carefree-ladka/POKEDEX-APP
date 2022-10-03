@@ -5,7 +5,7 @@
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { filteredData, searchPokemon } from "store/pokemonSlice"
-import { filterPokemons } from "utils/utils"
+import { filterPokemons } from "../../utils/utils"
 import {
   types as initialTypes,
   gender as initialGenderState,

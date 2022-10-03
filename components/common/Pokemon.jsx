@@ -11,7 +11,7 @@ import {
   fetchGenderData,
   selectedPokemon,
   selector,
-} from "store/pokemonSlice"
+} from "../../store/pokemonSlice"
 import Modal from "../modal/Modal"
 import PokemonPreview from "./PokemonPreview"
 import PokemonCard from "./PokemonCard"

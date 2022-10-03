@@ -1,8 +1,6 @@
 /* eslint-disable max-len */
 /* eslint-disable arrow-body-style */
 import React, { forwardRef } from "react"
-// import Image from "next/future/image"
-// import Divider from "../common/Divider"
 
 export default forwardRef((props, ref) => {
   return (

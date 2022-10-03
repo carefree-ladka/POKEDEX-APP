@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import Image from "next/future/image"
-import toUpperCase from "utils/upperCaseName"
-import generateRandom from "utils/generateRandomColors"
+import toUpperCase from "../../utils/upperCaseName"
+import generateRandom from "../../utils/generateRandomColors"
 
 export default function PokemonCard({ pokemons, showModal, colors }) {
   return (
