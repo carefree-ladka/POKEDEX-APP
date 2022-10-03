@@ -2,7 +2,7 @@ import Head from "next/head"
 import { useState } from "react"
 import dynamic from "next/dynamic"
 import { types as filterTypes, gender as filterGenders } from "../utils/types"
-import SuspenseLayout from "@/components/common/SuspenseLayout"
+import SuspenseLayout from "../components/common/SuspenseLayout"
 
 const Home = dynamic(() => import("../components/home/Home"), {
   suspense: true,

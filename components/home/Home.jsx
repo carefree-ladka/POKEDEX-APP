@@ -4,7 +4,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { filteredData, searchPokemon } from "store/pokemonSlice"
+import { filteredData, searchPokemon } from "../../store/pokemonSlice"
 import { filterPokemons } from "../../utils/utils"
 import {
   types as initialTypes,

@@ -8,7 +8,7 @@ import {
   descriptionList,
   flattenList,
   simplifyLabels,
-} from "utils/utils"
+} from "../../utils/utils"
 import toUpperCase from "../../utils/upperCaseName"
 import generateRandom from "../../utils/generateRandomColors"
 import gradientColors from "../../utils/constants"

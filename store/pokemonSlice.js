@@ -7,7 +7,7 @@ import {
   getPokemonDescription,
   getPokemonDisabilities,
   getPokemonGender,
-} from "services/pokemonService"
+} from "../services/pokemonService"
 
 export const fetchAllPokemons = createAsyncThunk(
   "pokemon/fetchAllPokemons",
