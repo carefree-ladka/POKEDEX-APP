@@ -2,7 +2,7 @@
 /* eslint-disable consistent-return */
 /* eslint-disable import/prefer-default-export */
 
-import extractGender from "utils/extractGender"
+import extractGender from "../utils/extractGender"
 
 export const getAllPokemons = async () => {
   try {
